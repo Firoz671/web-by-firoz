@@ -86,3 +86,95 @@ header .banner .hero-section{
 }
 
 
+/* Main */
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+main .main-heading h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+main .main-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.whyDev-section{
+    height: 1393px;
+    background-color: #d7dee971;
+    border-radius: 16px;
+}
+.main-heading{
+    margin-top: 72px;
+    padding: 80px 144px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Section1 */
+.sec-btn{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+  height: 47px;
+  width: 171px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.705);
+  border-radius: 8px;
+}
+
+.sec-btn:hover{
+    background-color: #000000;
+    transition-duration: 1s;
+    color: #FFFFFF;
+}
+
+main .section1 .left h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.7);
+}
+main .section1 .left p{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.section1 .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.section1{
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 946px;
+    height: 336px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+
+.s2{
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 946px;
+    height: 336px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+}
