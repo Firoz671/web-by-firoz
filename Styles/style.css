@@ -260,3 +260,27 @@ main .next-target-section .next-target-header{
     font-size: 16px;
     font-weight: 500;
 }
+
+/* Feedback */
+main .feedback-section{
+    margin-top: 49px;
+    background-image: url(../assets/handshake.jpg);
+    height: 313px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-section form input{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+}
+.feedback-section form button{
+    width: 120px;
+    height: 57px;
+    border: none;
+}
