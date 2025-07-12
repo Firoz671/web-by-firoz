@@ -178,3 +178,61 @@ main .section1 .left p{
     align-items: center;
     margin-bottom: 32px;
 }
+
+
+/* Target-Section */
+
+main .target-section{
+    
+}
+main .target-section .target-header{
+    padding: 151px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 852px;
+    gap: 24px;
+    text-align: center;
+}
+.target-header h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.target-header p{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* card */
+.target-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+.target-card .target-card-items{
+    
+    padding: 40px;
+    width: 284px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+
+.target-card .target-card-items h2{
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px ;
+}
+.target-card .target-card-items p{
+    margin-bottom: 24px;
+}
+.second-card{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.third-card{
+    background-color: rgba(255, 223, 0, 0.05);
+}
